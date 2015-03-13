@@ -38,7 +38,7 @@ To add your MoneySlider to your view, simply do :
 
     [myView addSubView:moneySlider];
 
-# Wich files I must use
+# Wich files should I use
 
 The 2 files you'll need to add to your project are MoneySlider.m and MoneySlider.h
 
