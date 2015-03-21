@@ -14,6 +14,7 @@
 		754F3FAD1AB2B12700F32C78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754F3FAC1AB2B12700F32C78 /* Images.xcassets */; };
 		754F3FB01AB2B12700F32C78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754F3FAE1AB2B12700F32C78 /* LaunchScreen.xib */; };
 		754F3FBC1AB2B12700F32C78 /* MoneySliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 754F3FBB1AB2B12700F32C78 /* MoneySliderTests.m */; };
+		754F3FC71AB2B30400F32C78 /* MoneySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 754F3FC61AB2B30400F32C78 /* MoneySlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		754F3FB51AB2B12700F32C78 /* MoneySliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneySliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754F3FBA1AB2B12700F32C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		754F3FBB1AB2B12700F32C78 /* MoneySliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneySliderTests.m; sourceTree = "<group>"; };
+		754F3FC51AB2B30400F32C78 /* MoneySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneySlider.h; sourceTree = "<group>"; };
+		754F3FC61AB2B30400F32C78 /* MoneySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneySlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		754F3F931AB2B12600F32C78 = {
 			isa = PBXGroup;
 			children = (
+				755C4D611AB2DF6D009AC567 /* Example */,
 				754F3F9E1AB2B12700F32C78 /* MoneySlider */,
 				754F3FB81AB2B12700F32C78 /* MoneySliderTests */,
 				754F3F9D1AB2B12700F32C78 /* Products */,
@@ -81,13 +85,8 @@
 		754F3F9E1AB2B12700F32C78 /* MoneySlider */ = {
 			isa = PBXGroup;
 			children = (
-				754F3FA31AB2B12700F32C78 /* AppDelegate.h */,
-				754F3FA41AB2B12700F32C78 /* AppDelegate.m */,
-				754F3FA61AB2B12700F32C78 /* ViewController.h */,
-				754F3FA71AB2B12700F32C78 /* ViewController.m */,
-				754F3FA91AB2B12700F32C78 /* Main.storyboard */,
-				754F3FAC1AB2B12700F32C78 /* Images.xcassets */,
-				754F3FAE1AB2B12700F32C78 /* LaunchScreen.xib */,
+				754F3FC51AB2B30400F32C78 /* MoneySlider.h */,
+				754F3FC61AB2B30400F32C78 /* MoneySlider.m */,
 				754F3F9F1AB2B12700F32C78 /* Supporting Files */,
 			);
 			path = MoneySlider;
@@ -117,6 +116,21 @@
 				754F3FBA1AB2B12700F32C78 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		755C4D611AB2DF6D009AC567 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				754F3FA31AB2B12700F32C78 /* AppDelegate.h */,
+				754F3FA41AB2B12700F32C78 /* AppDelegate.m */,
+				754F3FA61AB2B12700F32C78 /* ViewController.h */,
+				754F3FA71AB2B12700F32C78 /* ViewController.m */,
+				754F3FA91AB2B12700F32C78 /* Main.storyboard */,
+				754F3FAC1AB2B12700F32C78 /* Images.xcassets */,
+				754F3FAE1AB2B12700F32C78 /* LaunchScreen.xib */,
+			);
+			name = Example;
+			path = MoneySlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +236,7 @@
 				754F3FA81AB2B12700F32C78 /* ViewController.m in Sources */,
 				754F3FA51AB2B12700F32C78 /* AppDelegate.m in Sources */,
 				754F3FA21AB2B12700F32C78 /* main.m in Sources */,
+				754F3FC71AB2B30400F32C78 /* MoneySlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +427,7 @@
 				754F3FC11AB2B12700F32C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754F3FC21AB2B12700F32C78 /* Build configuration list for PBXNativeTarget "MoneySliderTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +436,7 @@
 				754F3FC41AB2B12700F32C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
