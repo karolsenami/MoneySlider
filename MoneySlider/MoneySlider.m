@@ -19,12 +19,6 @@ NSNumberFormatter *numberFormatter;
       
         _sliderLength = 150;
 
-        
-      /* _valueLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height/2 - 40, [UIScreen mainScreen].bounds.size.width, 20)];
-        _errorLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height/2 + 40, [UIScreen mainScreen].bounds.size.width, 20)];
-        _slider = [[UISlider alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2 - _sliderLength/2, [UIScreen mainScreen].bounds.size.height/2, _sliderLength, 20)];
-      */
-      
 
       _valueLabel.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height/2 - 40, [UIScreen mainScreen].bounds.size.width, 20);
       _slider.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2 - _sliderLength/2, [UIScreen mainScreen].bounds.size.height/2, _sliderLength, 20);
